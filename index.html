@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Senuri ❤️ Janith</title>
+
+
+    <link rel="stylesheet" href="invitation.css">
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Poppins:wght@300;400;500&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+
+<body>
+
+
+    <div class="wedding-frame"></div>
+
+
+    <!-- Romantic Music -->
+
+    <audio id="music" loop>
+
+        <source src="music/wedding.mp3" type="audio/mp3">
+
+    </audio>
+
+
+    <button id="musicBtn">
+        🎵
+    </button>
+
+
+
+
+    <!-- Gold Particles -->
+
+    <div id="particles"></div>
+
+
+
+
+
+    <!-- HERO -->
+
+
+    <section class="hero reveal">
+
+
+        <div class="hero-content">
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <p class="small-title">
+
+                Together with their families
+
+            </p>
+
+
+
+
+
+
+            <h1>
+
+                Janith
+
+                <span>❤️</span>
+
+                Senuri
+
+            </h1>
+
+
+
+
+            <p>
+
+                request the honour of your presence
+
+                <br>
+
+                at their wedding celebration
+
+            </p>
+
+
+
+
+            <h2>
+
+                21 August 2026
+
+            </h2>
+
+
+
+
+            <button onclick="openInvitation()">
+
+                Open Invitation
+
+            </button>
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+    <!-- COUNTDOWN -->
+
+
+    <section class="section countdown-section reveal">
+
+
+        <h2>
+
+            Counting Down To Our Day
+
+        </h2>
+
+
+
+        <div class="countdown">
+
+
+            <div>
+
+                <span id="days">
+
+                    00
+
+                </span>
+
+                Days
+
+            </div>
+
+
+
+            <div>
+
+                <span id="hours">
+
+                    00
+
+                </span>
+
+                Hours
+
+            </div>
+
+
+
+
+            <div>
+
+                <span id="minutes">
+
+                    00
+
+                </span>
+
+                Minutes
+
+            </div>
+
+
+
+
+            <div>
+
+                <span id="seconds">
+
+                    00
+
+                </span>
+
+                Seconds
+
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- DETAILS -->
+
+
+    <section class="section details reveal">
+
+
+        <h2>
+
+            Wedding Details
+
+        </h2>
+
+
+
+        <div class="card">
+
+
+            <h3>
+
+                ⛪ Church Ceremony
+
+            </h3>
+
+
+
+            <h4>
+
+                07.30 AM
+
+            </h4>
+
+
+
+            <p>
+
+                St. Mary's Church
+
+                <br>
+
+                Dummalakotuwa
+
+            </p>
+
+
+
+            <a target="_blank" href="https://maps.google.com/?q=St+Mary's+Church+Dummalakotuwa">
+
+                Open Map
+
+            </a>
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <div class="card">
+
+
+            <h3>
+
+                💍 Poruwa Ceremony
+
+            </h3>
+
+
+
+            <h4>
+
+                10.10 AM
+
+            </h4>
+
+
+
+            <p>
+
+                Moon Light Orilla Hotel
+
+                <br>
+
+                Nainamadama
+
+            </p>
+
+
+
+
+            <a target="_blank" href="https://maps.google.com/?q=Moon+Light+Orilla+Hotel+Nainamadama">
+
+                Open Map
+
+            </a>
+
+
+        </div>
+
+        <div class="hero-buttons">
+
+            <button onclick="addToCalendar()">
+                📅 Save The Date
+            </button>
+
+        </div>
+
+
+
+
+    </section>
+
+    <!-- OUR STORY -->
+
+    <section class="section story reveal">
+
+
+        <h2>
+            Our Story
+        </h2>
+
+
+        <div class="timeline">
+
+
+
+            <div class="story-item" style="background-image:url('images/first-meeting.jpg');">
+
+
+                <div class="story-content">
+
+
+                    <h3>
+                        First Meeting
+                    </h3>
+
+
+                    <p>
+                        Every beautiful journey begins with a special moment.
+                        The day two hearts met and a new chapter started.
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+            <div class="story-item" style="background-image:url('images/love-story.jpg');">
+
+
+                <div class="story-content">
+
+
+                    <h3>
+                        Our Love Story
+                    </h3>
+
+
+                    <p>
+                        Through laughter, memories and countless moments,
+                        our bond grew stronger with every passing day.
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+            <div class="story-item" style="background-image:url('images/wedding-day.jpg');">
+
+
+                <div class="story-content">
+
+
+                    <h3>
+                        Wedding Day
+                    </h3>
+
+
+                    <p>
+                        21 August 2026
+
+                        <br>
+
+                        The day we celebrate our forever together.
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+    <!-- GALLERY -->
+
+
+    <section class="section gallery-section reveal">
+
+
+        <h2>
+
+            Our Memories
+
+        </h2>
+
+
+
+
+        <div class="gallery">
+
+
+            <img src="images/photo1.jpg">
+
+
+            <img src="images/photo2.jpg">
+
+
+            <img src="images/photo3.jpg">
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <!-- RSVP SECTION -->
+
+
+    <section class="section rsvp-section reveal">
+
+
+        <h2>
+            Will You Join Us?
+        </h2>
+
+
+
+        <div class="rsvp-card">
+
+
+
+            <div id="guestRSVP">
+
+
+                <p class="guest-message">
+
+                    Dear <b id="guestName">Guest</b> ❤️
+
+                </p>
+
+
+                <p>
+
+                    We are honoured to invite you to celebrate our wedding day with us.
+
+                    <br>
+
+                    Your presence will make our day even more special.
+
+                </p>
+
+
+
+
+                <div class="rsvp-buttons">
+
+
+                    <button onclick="submitRSVP('YES')">
+
+                        ❤️ Yes, I'll be there
+
+                    </button>
+
+
+
+                    <button onclick="submitRSVP('NO')">
+
+                        💌 Sorry, I can't attend
+
+                    </button>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+            <div id="responseMessage" style="display:none;">
+
+
+                <h3>
+
+                    Thank You ❤️
+
+                </h3>
+
+
+                <p id="thankText"></p>
+
+
+
+                <button onclick="changeResponse()">
+
+                    Change Response
+
+                </button>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <!-- FOOTER -->
+
+    <section class="footer">
+
+
+        <h2>
+            With Love
+        </h2>
+
+
+        <p>
+
+            Janith ❤️ Senuri
+
+            <br>
+
+            21 August 2026
+
+        </p>
+
+
+
+        <div class="call-buttons">
+
+
+            <a href="tel:+94719408972">
+
+                📞 Janith
+
+            </a>
+
+
+
+            <a href="tel:+94760047377">
+
+                📞 Senuri
+
+            </a>
+
+
+        </div>
+
+
+        <p class="typing-message">
+
+            Thanks for being a part of our special day! ❤️
+
+        </p>
+
+
+    </section>
+
+
+
+    <script type="module" src="guest.js"></script>
+
+    <script type="module" src="rsvp.js"></script>
+
+    <script src="invitation.js"></script>
+
+
+</body>
+
+
+</html>
